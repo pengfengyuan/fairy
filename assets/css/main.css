@@ -3189,7 +3189,7 @@
 
 		#intro p {
 			font-size: 1.25rem;
-			font-style: italic;
+			font-style: inherit;
 			margin-top: -0.25rem;
 			text-align: center;
 		}
@@ -3205,6 +3205,10 @@
 				transform: translateY(2rem);
 				opacity: 0;
 				visibility: hidden;
+			}
+			#intro + #header .logo img{
+				width: 0.4em;
+				height: 0.28em;
 			}
 
 		#intro.hidden {
